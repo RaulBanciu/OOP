@@ -1,0 +1,146 @@
+﻿  main.cpp
+d:\adoptie\project1\project1\dynamicvector.h(198): error C3211: 'DynamicVector<Dog>::next': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(54): note: see declaration of 'DynamicVector<Dog>::next'
+d:\adoptie\project1\project1\dynamicvector.h(205): error C3211: 'DynamicVector<Dog>::next2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(55): note: see declaration of 'DynamicVector<Dog>::next2'
+d:\adoptie\project1\project1\dynamicvector.h(213): error C3211: 'DynamicVector<Dog>::filter': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(48): note: see declaration of 'DynamicVector<Dog>::filter'
+d:\adoptie\project1\project1\dynamicvector.h(245): error C3211: 'DynamicVector<Dog>::filter2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(49): note: see declaration of 'DynamicVector<Dog>::filter2'
+d:\adoptie\project1\project1\repository.h(10): error C2065: 'UI': undeclared identifier
+d:\adoptie\project1\project1\repository.h(10): error C2923: 'DynamicVector': 'UI' is not a valid template type argument for parameter 'T'
+d:\adoptie\project1\project1\repository.h(59): warning C4624: 'Repository': destructor was implicitly defined as deleted
+d:\adoptie\project1\project1\repository.h(16): error C2512: 'DynamicVector': no appropriate default constructor available
+  d:\adoptie\project1\project1\dynamicvector.h(7): note: see declaration of 'DynamicVector'
+d:\adoptie\project1\project1\controller.h(38): warning C4624: 'Controller': destructor was implicitly defined as deleted
+d:\adoptie\project1\project1\ui.h(32): warning C4624: 'UI': destructor was implicitly defined as deleted
+  UI.cpp
+d:\adoptie\project1\project1\dynamicvector.h(198): error C3211: 'DynamicVector<Dog>::next': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(54): note: see declaration of 'DynamicVector<Dog>::next'
+d:\adoptie\project1\project1\dynamicvector.h(205): error C3211: 'DynamicVector<Dog>::next2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(55): note: see declaration of 'DynamicVector<Dog>::next2'
+d:\adoptie\project1\project1\dynamicvector.h(213): error C3211: 'DynamicVector<Dog>::filter': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(48): note: see declaration of 'DynamicVector<Dog>::filter'
+d:\adoptie\project1\project1\dynamicvector.h(245): error C3211: 'DynamicVector<Dog>::filter2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(49): note: see declaration of 'DynamicVector<Dog>::filter2'
+d:\adoptie\project1\project1\repository.h(10): error C2065: 'UI': undeclared identifier
+d:\adoptie\project1\project1\repository.h(10): error C2923: 'DynamicVector': 'UI' is not a valid template type argument for parameter 'T'
+d:\adoptie\project1\project1\repository.h(59): warning C4624: 'Repository': destructor was implicitly defined as deleted
+d:\adoptie\project1\project1\repository.h(16): error C2512: 'DynamicVector': no appropriate default constructor available
+  d:\adoptie\project1\project1\dynamicvector.h(7): note: see declaration of 'DynamicVector'
+d:\adoptie\project1\project1\controller.h(38): warning C4624: 'Controller': destructor was implicitly defined as deleted
+d:\adoptie\project1\project1\ui.h(32): warning C4624: 'UI': destructor was implicitly defined as deleted
+  Repository.cpp
+d:\adoptie\project1\project1\dynamicvector.h(198): error C3211: 'DynamicVector<Dog>::next': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(54): note: see declaration of 'DynamicVector<Dog>::next'
+d:\adoptie\project1\project1\dynamicvector.h(205): error C3211: 'DynamicVector<Dog>::next2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(55): note: see declaration of 'DynamicVector<Dog>::next2'
+d:\adoptie\project1\project1\dynamicvector.h(213): error C3211: 'DynamicVector<Dog>::filter': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(48): note: see declaration of 'DynamicVector<Dog>::filter'
+d:\adoptie\project1\project1\dynamicvector.h(245): error C3211: 'DynamicVector<Dog>::filter2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(49): note: see declaration of 'DynamicVector<Dog>::filter2'
+d:\adoptie\project1\project1\controller.h(7): error C3646: 'repo': unknown override specifier
+d:\adoptie\project1\project1\controller.h(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\adoptie\project1\project1\controller.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\adoptie\project1\project1\controller.h(11): error C2143: syntax error: missing ',' before '&'
+d:\adoptie\project1\project1\controller.h(13): error C3646: 'getRepo': unknown override specifier
+d:\adoptie\project1\project1\controller.h(13): error C2059: syntax error: '('
+d:\adoptie\project1\project1\controller.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\adoptie\project1\project1\controller.h(11): error C2065: 'r': undeclared identifier
+d:\adoptie\project1\project1\controller.h(11): error C2614: 'Controller': illegal member initialization: 'repo' is not a base or member
+d:\adoptie\project1\project1\repository.cpp(37): error C3867: 'Dog::getSource': non-standard syntax; use '&' to create a pointer to member
+d:\adoptie\project1\project1\repository.cpp(37): error C2440: 'return': cannot convert from 'std::string (__thiscall Dog::* )(void) const' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  d:\adoptie\project1\project1\repository.cpp(37): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  Controller.cpp
+d:\adoptie\project1\project1\dynamicvector.h(198): error C3211: 'DynamicVector<Dog>::next': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(54): note: see declaration of 'DynamicVector<Dog>::next'
+d:\adoptie\project1\project1\dynamicvector.h(205): error C3211: 'DynamicVector<Dog>::next2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(55): note: see declaration of 'DynamicVector<Dog>::next2'
+d:\adoptie\project1\project1\dynamicvector.h(213): error C3211: 'DynamicVector<Dog>::filter': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(48): note: see declaration of 'DynamicVector<Dog>::filter'
+d:\adoptie\project1\project1\dynamicvector.h(245): error C3211: 'DynamicVector<Dog>::filter2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(49): note: see declaration of 'DynamicVector<Dog>::filter2'
+d:\adoptie\project1\project1\controller.h(7): error C3646: 'repo': unknown override specifier
+d:\adoptie\project1\project1\controller.h(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\adoptie\project1\project1\controller.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\adoptie\project1\project1\controller.h(11): error C2143: syntax error: missing ',' before '&'
+d:\adoptie\project1\project1\controller.h(13): error C3646: 'getRepo': unknown override specifier
+d:\adoptie\project1\project1\controller.h(13): error C2059: syntax error: '('
+d:\adoptie\project1\project1\controller.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\adoptie\project1\project1\controller.h(11): error C2065: 'r': undeclared identifier
+d:\adoptie\project1\project1\controller.h(11): error C2614: 'Controller': illegal member initialization: 'repo' is not a base or member
+d:\adoptie\project1\project1\controller.h(5): error C2011: 'Controller': 'class' type redefinition
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(3): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(6): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(6): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(6): error C2228: left of '.addDog' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(9): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(11): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(11): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(11): error C2228: left of '.deleteDog' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(14): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(16): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(16): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(16): error C2228: left of '.updateDog' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(19): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(21): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(21): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(21): error C2228: left of '.filter' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(23): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(25): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(25): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(25): error C2228: left of '.filter2' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(28): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(30): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(30): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(30): error C2228: left of '.backCurrent' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(34): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(36): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(36): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(36): error C2228: left of '.next' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(39): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(41): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(41): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(41): error C2228: left of '.next2' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(44): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(46): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(46): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(46): error C2228: left of '.current0' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(49): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(52): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(52): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(52): error C2228: left of '.dogLower' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(56): error C2027: use of undefined type 'Controller'
+  d:\adoptie\project1\project1\controller.h(5): note: see declaration of 'Controller'
+d:\adoptie\project1\project1\controller.cpp(58): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(58): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(58): error C2228: left of '.getCurrentDog' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(59): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(59): error C2227: left of '->list' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(59): error C2228: left of '.addToAdoptionList' must have class/struct/union
+d:\adoptie\project1\project1\controller.cpp(60): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\adoptie\project1\project1\controller.cpp(60): error C2227: left of '->repo' must point to class/struct/union/generic type
+d:\adoptie\project1\project1\controller.cpp(60): error C2228: left of '.deleteDog' must have class/struct/union
+  Generating Code...
+  Compiling...
+  AdoptionList.cpp
+d:\adoptie\project1\project1\dynamicvector.h(198): error C3211: 'DynamicVector<Dog>::next': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(54): note: see declaration of 'DynamicVector<Dog>::next'
+d:\adoptie\project1\project1\dynamicvector.h(205): error C3211: 'DynamicVector<Dog>::next2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(55): note: see declaration of 'DynamicVector<Dog>::next2'
+d:\adoptie\project1\project1\dynamicvector.h(213): error C3211: 'DynamicVector<Dog>::filter': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(48): note: see declaration of 'DynamicVector<Dog>::filter'
+d:\adoptie\project1\project1\dynamicvector.h(245): error C3211: 'DynamicVector<Dog>::filter2': explicit specialization is using partial specialization syntax, use template <> instead
+  d:\adoptie\project1\project1\dynamicvector.h(49): note: see declaration of 'DynamicVector<Dog>::filter2'
+  Generating Code...
